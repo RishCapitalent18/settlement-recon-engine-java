@@ -1,0 +1,13 @@
+{
+  "internal_trades": 6000,
+  "custodian_rows": 4663,
+  "rejected": 85,
+  "duplicates": 130,
+  "legacy_stp_pct": 29.30,
+  "engine_stp_pct": 57.23,
+  "manual_queue_cut_pct": 32.44,
+  "missing_confirmations": 1852,
+  "unbooked": 300,
+  "notional_at_risk": 4.79962457E8,
+  "critical_notional": 1.56807351E8
+}

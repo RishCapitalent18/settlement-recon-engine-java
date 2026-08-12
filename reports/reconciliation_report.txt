@@ -1,0 +1,26 @@
+================ Settlement Reconciliation Report ================
+Internal ledger trades       : 6000
+Custodian rows ingested      : 4663
+Rows repaired and parsed     : 4578
+Malformed rows rejected      : 85
+Duplicate confirms dropped   : 130
+
+----- Before: legacy exact-match process -----
+Straight-through matches     : 1758
+Legacy straight-through rate : 29.30%
+
+----- After: rebuilt repair-and-match engine -----
+Straight-through matches     : 3434
+Engine straight-through rate : 57.23%
+Manual review queue cut by   : 32.44%
+
+----- Residual genuine breaks (routed for review) -----
+Missing confirmations        : 1852
+Unbooked (custodian only)    : 300
+PRICE_BREAK                  : 289
+QUANTITY_BREAK               : 167
+SETTLEDATE_BREAK             : 217
+SIDE_BREAK                   : 81
+Notional at risk             : $479,962,457.00
+Critical notional            : $156,807,351.00
+=================================================================
