@@ -74,9 +74,8 @@ settlement-recon-engine-java/
 `-- reports/                # reconciliation_report.txt, run_summary.json
 ```
 
-Data is fully synthetic and generated locally. No proprietary or firm data is used.
 
-## Sample run
+## Output
 
 ~~~
 ================ Settlement Reconciliation Report ================
